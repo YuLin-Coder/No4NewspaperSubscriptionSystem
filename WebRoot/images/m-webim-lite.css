@@ -1,0 +1,543 @@
+@charset "utf-8";
+
+.BD-QIAO-WEBIM-LITE-WRAP div,
+.BD-QIAO-WEBIM-LITE-WRAP a,
+.BD-QIAO-WEBIM-LITE-WRAP span,
+.BD-QIAO-WEBIM-LITE-WRAP em,
+.BD-QIAO-WEBIM-LITE-WRAP select,
+.BD-QIAO-WEBIM-LITE-WRAP option,
+.BD-QIAO-WEBIM-LITE-WRAP table,
+.BD-QIAO-WEBIM-LITE-WRAP tr,
+.BD-QIAO-WEBIM-LITE-WRAP td,
+.BD-QIAO-WEBIM-LITE-WRAP img {
+    color: inherit;
+    width: auto;
+    text-align: left;
+    float: none;
+    clear: none;
+    background-color: transparent;
+    background-image: none;
+    margin: 0;
+    padding: 0;
+}
+
+.BD-QIAO-WEBIM-LITE-WRAP div,
+.BD-QIAO-WEBIM-LITE-WRAP a,
+.BD-QIAO-WEBIM-LITE-WRAP span,
+.BD-QIAO-WEBIM-LITE-WRAP em,
+.BD-QIAO-WEBIM-LITE-WRAP option,
+.BD-QIAO-WEBIM-LITE-WRAP table,
+.BD-QIAO-WEBIM-LITE-WRAP tr,
+.BD-QIAO-WEBIM-LITE-WRAP td,
+.BD-QIAO-WEBIM-LITE-WRAP img {
+    border: none;
+}
+
+.BD-QIAO-WEBIM-LITE-WRAP table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP {
+    position: fixed;
+    right:0px;
+    bottom:0px;
+    width: 320px;
+    font-size:12px;
+    line-height: 1.5;
+    z-index: 2147483647;
+    background: #FFF;
+    color: #333;
+    text-align: left;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title {
+    height: 26px;
+    line-height: 26px;
+    border:1px solid #AFAFAF;
+    background: url(../../img/matrix/bg.png) 0px -178px repeat-x;
+    width: auto;
+    color: #333;
+    text-align: left;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title-notify {
+    border-color: #9BCCFB;
+    background-position: 0px -152px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title-text {
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: bold;
+    color: #333;
+    _zoom : 1;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title-notify-text {
+    margin-left:10px;
+    cursor: pointer;
+    display: none;
+    color: #333;
+    _zoom : 1;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title-notify .m-lite-title-notify-text {
+    display: inline;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title-notify-text em {
+    display: inline-block;
+    margin-right: 3px;
+    height: 14px;
+    width: 19px;
+    line-height: 14px;
+    font-style: normal;
+    overflow: hidden;
+    text-align: center;
+    vertical-align: middle;
+    background: url(../../img/matrix/webim.png) -16px -16px no-repeat;
+    *display: inline;
+    *zoom: 1;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title-btn {
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
+    background: url(../../img/matrix/webim.png) 0px -75px no-repeat;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title .btn-close {
+    background-position: -16px -75px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title .btn-close:hover {
+    background-position: 0px -75px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title .btn-max {
+    background-position: -48px -75px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title .btn-max:hover {
+    background-position: -32px -75px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title .btn-min {
+    background-position: -80px -75px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-title .btn-min:hover {
+    background-position: -64px -75px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-content {
+    position: relative;
+    border-left: 1px solid #AFAFAF;
+    border-right: 1px solid #AFAFAF;
+    padding-top: 10px;
+    height: 306px;
+    overflow-y: auto;
+    width: auto;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-msg {
+    position: relative;
+    width: 255px;
+    margin-bottom: 15px;
+    clear: both;
+    *clear: none;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-msg-info {
+    margin: 0px auto;
+    width: 200px;
+    margin-bottom: 15px;
+    padding: 5px;
+    background: #CDE8FA;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    word-wrap: break-word; 
+    break-word: break-all;
+    text-align: left;
+    clear: both;
+    *clear: none;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-msg-title {
+    text-align: left;
+    color: #333;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-msg-content {
+    padding: 10px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    word-wrap: break-word; 
+    break-word: break-all;
+    text-align: left;
+    width: auto;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-msg-cursor {
+    position: absolute;
+    top: 30px;
+    width: 7px;
+    height: 11px;
+    overflow: hidden;
+    background: url(../../img/matrix/webim.png) -16px -61px no-repeat;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .msg-server {
+    float: left;
+    padding-left:12px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .msg-server .m-lite-msg-content {
+    background: #CDE8FA;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .msg-server .m-lite-msg-cursor {
+    background-position: -16px -61px;
+    left: 5px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .msg-client {
+    float: right;
+    padding-right:12px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .msg-client .m-lite-msg-content {
+    background: #DDDDDD;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .msg-client .m-lite-msg-title {
+    text-align: right;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .msg-client .m-lite-msg-cursor {
+    background-position: -23px -61px;
+    right: 5px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-editor {
+    overflow: visible;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool {
+    height: 26px;
+    border: 1px solid #AFAFAF;
+    line-height: 26px;
+    background: url(../../img/matrix/bg.png) 0px -178px repeat-x;
+    width: auto;
+    position: relative;
+    overflow: visible;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool a {
+    color: #333;
+    text-decoration: none;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool-btn {
+    float: left;
+    width: 16px;
+    height: 16px;
+    margin-top: 5px;
+    margin-left: 5px;
+    overflow: hidden;
+    background: url(../../img/matrix/webim.png) 0px -58px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool .btn-face {
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    background: url(../../img/webim_toolbar.gif) 0 -29px no-repeat;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool .btn-face:hover {
+    background-position: 0 -49px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool .btn-face-active {
+    background-position: 0 -69px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool .btn-font {
+    width: 20px;
+    height: 20px;
+    margin-top: 3px;
+    background: url(../../img/webim_toolbar.gif) 0 -89px no-repeat;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool .btn-font:hover {
+    background-position: 0px -109px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool .btn-font-active {
+    background-position: 0px -129px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool-sp-btn {
+    float: right;
+    padding-left: 20px;
+    height:26px;
+    background: url(../../img/matrix/webim.png) -184px 5px no-repeat;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool-face {
+    position: absolute; 
+    left: -1px;
+    top: -181px;
+    z-index: 20;
+    background: #fff;
+    width: auto;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tool-font {
+    width: 298px;
+    height:25px; 
+    padding:5px 10px 0; 
+    background:#fff; 
+    position:absolute; 
+    top:-32px; 
+    border:1px solid #A8B3C7;
+    left:-1px;
+    z-index: 10;
+    width: auto;
+    overflow: visible;
+}
+
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-input-area {
+    height: 60px;
+    border-left: 1px solid #AFAFAF;
+    border-right: 1px solid #AFAFAF;
+    padding: 5px;
+    width:auto;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-input-area iframe {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-opt {
+    height: 16px;
+    line-height: 16px;
+    padding: 5px 0;
+    position: relative;
+    border: 1px solid #AFAFAF;
+    color: #A4A4A4;
+    background: #E9E9E9;
+    width: auto;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-logo {
+    display: inline-block;
+    height: 16px;
+    width: 17px;
+    margin: 0px 5px;
+    overflow: hidden;
+    background: url(../../img/matrix/webim.png) -18px -44px no-repeat;
+    *display: inline;
+    *zoom: 1;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-qiao {
+    display: inline-block;
+    color: #333;
+    vertical-align: 4px;
+    *vertical-align: 2px;
+    *display: inline;
+    *zoom: 1;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-opt-btn {
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    /*width: 58px;*/
+    width: 43px; /* 隐藏发送选项按钮 */
+    height: 28px;
+    background: url(../../img/matrix/webim.png) -35px -16px no-repeat;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-opt-btn:hover {
+    background-position: -93px -16px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-opt-btn:active {
+    background-position: -93px -44px;
+}
+
+#BD_QIAO_WEBIM_LITE_WRAP .m-lite-tip {
+    position: absolute;
+    top: 330px;
+    left: 1px;
+    height: 15px;
+    width: 308px;
+    padding: 0px 5px;
+    background: #CCC;
+    color: #FFF;
+    line-height: 15px;
+    text-align: left;
+}
+
+.BD-QIAO-IM-FACE-WRAP table { 
+    border-collapse: collapse;
+    border: 0;
+}
+.BD-QIAO-IM-FACE-WRAP td {
+    border: 1px solid #bcd;
+    background-color: #fff;
+}
+.BD-QIAO-IM-FACE-WRAP td a{
+    padding: 5px;
+    display: block;
+    background-color: #fff;
+}
+.BD-QIAO-IM-FACE-WRAP td a:hover {
+    background:url(../../img/webim_toolbar.gif);
+}
+.BD-QIAO-IM-FACE-WRAP td img {
+    display: block;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+}
+
+
+
+
+#FaceTab{height:19px; width:350px; cursor:default}
+#FaceTab a{float:left; width:61px; height:19px; line-height:19px; text-align:center; text-decoration:none; color:#000}
+#FaceTab a.active{background:url(../../img/webim_facetab.gif)}
+#FaceGroup table{border-collapse:collapse; border:0; }
+#FaceGroup td{width:19px; height:19px; border:1px #bcd solid; padding:5px;}
+#FaceGroup td.over{background:url(../../img/webim_toolbar.gif)}
+#FaceGroup table img{display:block; width:19px; height:19px}
+#FaceGroup table span{display:block; width:19px; height:19px; cursor:default}
+
+
+
+.BD-QIAO-IM-FONT-WRAP .m-font-family-select {
+    width: 135px; 
+    vertical-align: 4px;
+    margin-right: 3px;
+    *vertical-align: -3px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-size-select {
+    width: 45px;
+    vertical-align: 4px;
+    margin-right: 3px;
+    *vertical-align: -3px;
+    color: #000;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-family-select option,
+.BD-QIAO-IM-FONT-WRAP .m-font-size-select option {
+    color: #000;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-btn {
+    width:20px; 
+    height:20px; 
+    display:inline-block; 
+    background: url(../../img/webim_toolbar.gif) no-repeat;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-btn {
+    *zoom: 1;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-bold {
+    background-position: 0 -149px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-bold:hover {
+    background-position: 0 -169px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-bold-on {
+    background-position: 0 -189px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-italic {
+    background-position: 0 -209px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-italic:hover {
+    background-position: 0 -229px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-italic-on {
+    background-position: 0 -249px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-underline {
+    background-position: 0 -269px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-underline:hover {
+    background-position: 0 -289px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-underline-on {
+    background-position: 0 -309px;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-color{
+    background-position: 0 -329px
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-color:hover{
+    background-position: 0 -349px
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-color-on{
+    background-position: 0 -369px
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-palette {
+    position:absolute; 
+    z-index:20; 
+    border:1px #a8b3c7 solid; 
+    background:#fff; 
+    padding:5px; 
+    top:30px; 
+    right:-1px; 
+    line-height: 0px;
+    width: auto;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-palette table,
+.BD-QIAO-IM-FONT-WRAP .m-font-palette tbody,
+.BD-QIAO-IM-FONT-WRAP .m-font-palette tr {
+    background-color: #fff;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-palette td{ 
+    font-size:0;
+    background-color: #fff;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-palette a { 
+    padding:5px; 
+    display: block;
+    background-color: #fff;
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-palette a:hover {
+    background:#ccc
+}
+.BD-QIAO-IM-FONT-WRAP .m-font-palette td span{
+    display:block; 
+    width:12px; 
+    height:10px; 
+    border:1px #669 solid; 
+    cursor:pointer
+}
+
+#Font{width:20px; height:20px; float:left; border:0; margin-right:3px;}
+.fontnormal{background:url(../../img/webim_toolbar.gif) 0 -89px}
+.fontover{background:url(../../img/webim_toolbar.gif) 0 -109px}
+.fonton{background:url(../../img/webim_toolbar.gif) 0 -129px}
+
+.bd-map {text-decoration: underline !important;}
